@@ -1,0 +1,19 @@
+@import 'vars';
+@import 'layout';
+@import 'typography';
+@import 'components';
+@import 'utilities';
+@import 'margin_padding';
+
+html {
+    background-color: white;;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-section {
+    width: 100vw;    
+}

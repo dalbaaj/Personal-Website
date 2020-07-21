@@ -1,22 +1,41 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+
+import Landing from "../components/pageSections/landing";
+import About from "../components/pageSections/about";
+import Education from "../components/pageSections/education";
+import Experience from "../components/pageSections/experience";
+import Skills from "../components/pageSections/skills";
+import Accomplishments from "../components/pageSections/accomplishments";
+import Volunteering from "../components/pageSections/volunteering";
+import Contact from "../components/pageSections/contact";
+// import PageSection from "../components/pageSection";
 
 const IndexPage = () => (
+  <>
+  <SEO title="Home" />
   <Layout>
-    <SEO title="Home" />
-    <h1>Hello!</h1>
-    <h2>Welcome to my personal website :) </h2>
-    <p>This is my first attempt at ever making a website so please don't judge me </p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="flex">
+      <div className="col-sm-12 col-md-12 col-lg-5" style={{maxHeight: '100vh'}}>
+        <Landing />
+      </div>
+
+      <div className="col-sm-12 col-md-12 col-lg-7">
+        <div className="page-section-list">
+          <About/>
+          <Education />
+          <Experience />   
+          <Skills />
+          <Accomplishments />
+          <Volunteering />
+          <Contact />
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
+  </>
 )
 
 export default IndexPage

@@ -1,0 +1,35 @@
+// removing auto margin and padding on image type component
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.meme-danah {
+    height: '40px';
+    margin-bottom: '1.45rem';
+}
+
+.skill-link { 
+    background: #FE7F2D;
+    border: none;
+    border-radius: .2em;
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 1em;
+    margin: .4em .8em .4em 0;
+    padding: .4em .4em .4em .4em;
+
+    font-weight: 600;
+    display: inline-block;
+    color: #FFFFFF;
+    transition: all .2s ease-in-out;
+}
+
+.skill-link:hover {
+    background: darken(#FE7F2D, 10%);
+}
+
+.content-card {
+    padding: 3%;
+    border-radius: 12px;
+}

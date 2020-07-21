@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+}
+  
+.align-horizontal {
+    align-items: center;
+}
+  
+.align-vertical {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+  
+.text-align-center {
+    text-align: center;
+}
+  
+.bold {
+    font-weight: bold;
+}

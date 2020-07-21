@@ -1,0 +1,32 @@
+$color-palette:  
+("white",#FFFFFF),
+("black",#000000),
+("sunglow", #FCCA46)
+("pumpkin", #FE7F2D),
+("vivid-violet", #9233FF),
+("light-blue", #4BA3FB),
+("denim", #045CC8),
+("blue-crayola", #0476F1),
+("true-blue", #0466C8),
+("usafa-blue", #0353A4),
+("dark-cornflower-blue", #023E7D),
+("oxford-blue", #002855),
+("dark-oxford-blue", #001845),
+("darker-oxford-blue", #001233),
+("independence-grey", #33415C),
+("black-coral", #5C677D),
+("roman-silver", #7D8597),
+("manatee", #979DAC),
+("maximum-yellow", #FFC857),
+("orange-soda", #F2542D),
+("viridian", #0E9594),
+("skobeloff", #127475);
+
+@each $color in $color-palette {
+  .is-#{nth($color,1)}-bg{
+    background-color: nth($color,2);
+  }
+  .is-#{nth($color,1)}-text{
+    color: nth($color,2);
+  }
+}
