@@ -5,12 +5,12 @@ import ContentCard from '../contentCard';
 const Experience = () => {
     return (
         <>
-            <div className="container is-denim-bg" style={{minHeight: '90vh', padding: '5%', margin: '0px'}}>
+            <div className="container" style={{minHeight: '90vh', padding: '5%', margin: '0px'}}>
                 <div className="row">
                     <div className="col-xs-12">
-                        <h1 className="is-white-text section-heading margin-3-b">Experience</h1>
+                        <h1 className="is-violet-web-text section-heading margin-3-b">Experience</h1>
                     </div>
-                    <div className ="col-xs-12 content-card is-roman-silver-bg" style={{marginBottom: '25px'}}>
+                    <div className ="col-xs-12 content-card is-violet-web-bg" style={{marginBottom: '25px'}}>
                         <ContentCard
                             position = "Events Director Student Assistant"
                             company="UCLA Luskin School of Public Affairs"
@@ -22,7 +22,7 @@ const Experience = () => {
                             Lead development and design of website for annual summit with 800 attendees." 
                         />
                     </div>
-                    <div className ="col-xs-12 content-card is-roman-silver-bg" style={{marginBottom: '25px'}}>
+                    <div className ="col-xs-12 content-card is-violet-web-bg" style={{marginBottom: '25px'}}>
                         <ContentCard
                             position="Reader for Life Sciences Core Education" 
                             company="University of California, Los Angeles" 
@@ -34,7 +34,7 @@ const Experience = () => {
                             Maintaining an updated spreadsheet of grades for multiple teaching assistants" 
                         />
                     </div> 
-                    <div className ="col-xs-12 content-card is-roman-silver-bg" style={{marginBottom: '25px'}}>    
+                    <div className ="col-xs-12 content-card is-violet-web-bg" style={{marginBottom: '25px'}}>    
                         <ContentCard
                             position="Lead Banquet Server"
                             company="Alerus Center (Grand Forks, North Dakota)"

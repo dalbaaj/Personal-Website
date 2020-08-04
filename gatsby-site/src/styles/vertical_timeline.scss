@@ -1,0 +1,38 @@
+  .vertical-timeline-content{
+    padding: 1em;
+    border-radius: 0.25em;
+    border-style: solid;
+    border-width: medium;
+    border-color: '#001233';
+  }
+
+  timeline--animate .entry .bounce-in{
+    visibility: visible;
+    animation: bounce-in .5s;
+  }
+.timeline-date{
+    position: absolute;
+    top:-12px;
+    left: 0;
+    padding: 1px;
+    height: 54px;
+    box-sizing: border-box;
+    width:90%;
+}
+  .timeline-date-inside{
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    border-right-color: transparent;
+    height: 60px;
+    width: 100%;
+    display: block;
+    line-height: 52px;
+    text-indent: 10px;
+  }
+
+  .body-container{
+      position: relative;
+      margin-left: 60px;
+  }

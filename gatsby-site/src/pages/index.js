@@ -18,11 +18,11 @@ const IndexPage = () => (
   <SEO title="Home" />
   <Layout>
     <div className="flex">
-      <div className="col-sm-12 col-md-12 col-lg-5" style={{maxHeight: '100vh'}}>
+      <div className="col-sm-12 col-md-12 col-lg-5" style={{maxHeight: '100vh', background: '#2F2F2F'}}>
         <Landing />
       </div>
 
-      <div className="col-sm-12 col-md-12 col-lg-7">
+      <div className="col-sm-12 col-md-12 col-lg-7" style={{background:'#2C2C2C'}}>
         <div className="page-section-list">
           <About/>
           <Education />

@@ -9,9 +9,10 @@ const Landing = () => {
                 <img 
                     src={MemeDanah} 
                     className="meme-danah"
+                    alt="personal-cartoon-head"
                     style={{paddingTop: '25px', paddingBottom: '25px', height: '200px'}}
                 />
-                <h1 className="is-black-text" style={{paddingBottom:'25px'}}>Danah Albaaj.</h1>
+                <h1 className="is-cultured-text" style={{paddingBottom:'25px'}}>Danah Albaaj.</h1>
             </div>
         </div>
         </>

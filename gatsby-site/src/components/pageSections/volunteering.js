@@ -4,12 +4,12 @@ import ContentCard from '../contentCard';
 const Volunteering = () => {
     return (
         <>
-        <div className="container is-oxford-blue-bg" style={{minHeight: '90vh', padding: '5%', margin: '0px'}}>
+        <div className="container" style={{minHeight: '90vh', padding: '5%', margin: '0px'}}>
             <div className="row">
                 <div className="col-xs-12">
-                    <h1 className="is-white-text section-heading margin-3-b">Volunteering</h1>
+                    <h1 className="is-med-turquoise-text section-heading margin-3-b">Volunteering</h1>
                 </div>
-                <div className ="col-xs-12 content-card is-black-coral-bg" style={{marginBottom: '25px'}}> 
+                <div className ="col-xs-12 content-card is-med-turquoise-bg" style={{marginBottom: '25px'}}> 
                     <ContentCard
                         position="Mentorship Programming Director"
                         company="Bruin Partners" 
@@ -26,7 +26,7 @@ const Volunteering = () => {
                         Ensuring organization's ability to achieve $6,000 annual fundraising goal."       
                     />
                 </div>
-                <div className ="col-xs-12 content-card is-black-coral-bg" style={{marginBottom: '25px'}}>     
+                <div className ="col-xs-12 content-card is-med-turquoise-bg" style={{marginBottom: '25px'}}>     
                     <ContentCard
                         position="Undergraduate Learning Assistant"
                         company="Undergraduate Learning Assistant Program"
@@ -38,7 +38,7 @@ const Volunteering = () => {
                         Communicating information from student interactions to the instructors on improving course education"      
                     />
                 </div>
-                <div className ="col-xs-12 content-card is-black-coral-bg" style={{marginBottom: '25px'}}> 
+                <div className ="col-xs-12 content-card is-med-turquoise-bg" style={{marginBottom: '25px'}}> 
                     <ContentCard
                         position="Vice President of Facility Operations"
                         company="Alpha Chi Omega, Alpha Psi Chapter"
