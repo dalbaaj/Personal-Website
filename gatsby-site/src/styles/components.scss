@@ -33,3 +33,21 @@ img {
     padding: 3%;
     border-radius: 12px;
 }
+
+// From Scott Durham, https://codepen.io/ultraloveninja/pen/vdJMoW
+  .ribbon {
+    padding: 15px;
+    height: 25px;
+    margin: 0.4em 0em;
+    background: #3A3A3A;
+    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: "Raleway", 'sans-serif';
+    color: #F5F3F5;
+    letter-spacing: 0.18em;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+  }
