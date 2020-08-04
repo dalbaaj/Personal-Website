@@ -9,7 +9,7 @@ const Accomplishments = () => {
                         <h1 className="is-light-sky-blue-text section-heading margin-3-b">Accomplishments</h1>
                     </div>
                     <div className="col-xs-12">
-                        <p className="is-light-sky-blue-text">I am so cool I am on the deans list many times.</p>
+                        <p className="is-cultured-text">I am so cool I am on the deans list many times.</p>
                     </div>
                 </div>
             </div>

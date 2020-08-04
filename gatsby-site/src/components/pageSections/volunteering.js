@@ -9,7 +9,7 @@ const Volunteering = () => {
                 <div className="col-xs-12">
                     <h1 className="is-med-turquoise-text section-heading margin-3-b">Volunteering</h1>
                 </div>
-                <div className ="col-xs-12 content-card is-med-turquoise-bg" style={{marginBottom: '25px'}}> 
+                <div className ="col-xs-12 content-card is-davys-grey-bg" style={{marginBottom: '25px'}}> 
                     <ContentCard
                         position="Mentorship Programming Director"
                         company="Bruin Partners" 
@@ -26,7 +26,7 @@ const Volunteering = () => {
                         Ensuring organization's ability to achieve $6,000 annual fundraising goal."       
                     />
                 </div>
-                <div className ="col-xs-12 content-card is-med-turquoise-bg" style={{marginBottom: '25px'}}>     
+                <div className ="col-xs-12 content-card is-davys-grey-bg" style={{marginBottom: '25px'}}>     
                     <ContentCard
                         position="Undergraduate Learning Assistant"
                         company="Undergraduate Learning Assistant Program"
@@ -38,7 +38,7 @@ const Volunteering = () => {
                         Communicating information from student interactions to the instructors on improving course education"      
                     />
                 </div>
-                <div className ="col-xs-12 content-card is-med-turquoise-bg" style={{marginBottom: '25px'}}> 
+                <div className ="col-xs-12 content-card is-davys-grey-bg" style={{marginBottom: '25px'}}> 
                     <ContentCard
                         position="Vice President of Facility Operations"
                         company="Alpha Chi Omega, Alpha Psi Chapter"

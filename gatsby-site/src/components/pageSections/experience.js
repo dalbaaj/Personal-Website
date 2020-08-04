@@ -10,7 +10,7 @@ const Experience = () => {
                     <div className="col-xs-12">
                         <h1 className="is-violet-web-text section-heading margin-3-b">Experience</h1>
                     </div>
-                    <div className ="col-xs-12 content-card is-violet-web-bg" style={{marginBottom: '25px'}}>
+                    <div className ="col-xs-12 content-card is-davys-grey-bg" style={{marginBottom: '25px'}}>
                         <ContentCard
                             position = "Events Director Student Assistant"
                             company="UCLA Luskin School of Public Affairs"
@@ -22,7 +22,7 @@ const Experience = () => {
                             Lead development and design of website for annual summit with 800 attendees." 
                         />
                     </div>
-                    <div className ="col-xs-12 content-card is-violet-web-bg" style={{marginBottom: '25px'}}>
+                    <div className ="col-xs-12 content-card is-davys-grey-bg" style={{marginBottom: '25px'}}>
                         <ContentCard
                             position="Reader for Life Sciences Core Education" 
                             company="University of California, Los Angeles" 
@@ -34,7 +34,7 @@ const Experience = () => {
                             Maintaining an updated spreadsheet of grades for multiple teaching assistants" 
                         />
                     </div> 
-                    <div className ="col-xs-12 content-card is-violet-web-bg" style={{marginBottom: '25px'}}>    
+                    <div className ="col-xs-12 content-card is-davys-grey-bg" style={{marginBottom: '25px'}}>    
                         <ContentCard
                             position="Lead Banquet Server"
                             company="Alerus Center (Grand Forks, North Dakota)"
