@@ -7,7 +7,7 @@ const AccomplishmentSection = () => {
             <div className="container" style={{minHeight: '20vh', padding: '5%', margin: '0px'}}>
                 <div className="row">
                     <div className="col-xs-12">
-                        <h1 className="is-light-sky-blue-text section-heading margin-3-b">Accomplishments</h1>
+                        <h1 className="is-light-sky-blue-text section-heading margin-3-b">Achievements</h1>
                     </div>
                     {
                         Accomplishments.map((accomplishment) =>
